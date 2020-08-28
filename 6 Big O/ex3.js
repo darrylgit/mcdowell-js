@@ -1,4 +1,4 @@
-function printOrderedPairs(n) {
+function printUnorderedPairs(n) {
   // Create arr of range 1 to n
   const arr = inclusiveRange(1, n);
 
@@ -25,7 +25,7 @@ const numbersToTest = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
 
 console.log(
   numbersToTest
-    .map(num => `Time elapsed when n = ${num}: ${printOrderedPairs(num)}\n`)
+    .map(num => `Time elapsed when n = ${num}: ${printUnorderedPairs(num)}\n`)
     .join('')
 );
 
