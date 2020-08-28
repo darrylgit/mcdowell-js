@@ -40,7 +40,7 @@ console.log(
 // Time elapsed when n = 900: 4624
 // Time elapsed when n = 1000: 6086
 
-// The number of iterations isnthe sum of 1 to n
+// The number of iterations is the sum of 1 to n
 // Using Gauss's formula: O((n(n - 1)) / 2)
 // Which simplifies to: O(n^2 / 2)
 // Which simplifies to: O(N^2)
